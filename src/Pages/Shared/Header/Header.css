@@ -1,0 +1,74 @@
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo img{
+    position: absolute;
+    width: 160px;
+    height: 63px;
+    left: 10%;
+    top: 6px;
+}
+.ProfileName-icon{
+    margin-right: 5px;
+}
+.header-menu{
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgba(128, 0, 128, 0.25);
+}
+.header-menu:hover{
+    color: #800080;
+}
+.header-menu-area{
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+
+.mobile-menu-area{
+    display: inline;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+.dropdown-menu .mobile-menu{
+    display: block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+}
+.mobile-menu-area:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu-list{
+    text-decoration: none;
+    
+}
+.mobile-menu{
+    text-decoration: none;
+}
+
+
+@media(max-width: 1400px){
+    
+    .mobile-menu-area{
+        display: none;
+    }
+
+    
+}
+
+@media(max-width: 666px){
+        
+    .mobile-menu-area{
+        display: block;
+    }
+    .header-menu-area{
+        display: none;
+    }
+    
+}
+
+

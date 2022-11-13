@@ -1,0 +1,191 @@
+.friends-referred-balance{
+    display: flex;
+    justify-content: space-between;
+}
+.friends-code h6{
+    color: #800080;
+    color: #800080;
+    font-size: 16px;
+}
+.friends-code h6 span{
+    letter-spacing: 0.75em;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.friends-balance{
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    width: 145px;
+    height: 85px;
+    margin-top: 35px;
+}
+.friends-balance h6{
+    font-size: 16px;
+    margin-top: 14px;
+    color: #800080;
+    margin-left: 10px;
+    
+}
+.friends-balance h6 span{
+    color: #000;
+    
+}
+
+
+
+/* friends-enrolled */
+.friends-text{
+    color: #800080;
+    font-size: 20px;
+}
+.friends-text span{
+    color: #4D4D4D;
+    
+}
+.friends-enrolled{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.friends-col{
+    width: 300px;
+    height: 210px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.friends-name-date{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+}
+.friends-enrolled-text{
+    margin-top: -10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.friends-skills{
+    margin-top: -20px;
+}
+.friends-skills button{
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 14px;
+    margin: 0 5px 5px 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+.friends-skills h5{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}
+.friends-skills h5 span{
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.Terms-Conditions{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.friends-enrolled-footer-menu{
+    text-decoration: none;
+    color: #800080;
+}
+
+/* go-back-mobile */
+
+.go-back-mobile{
+    margin-top: 10px;
+}
+.go-back-mobile-menu{
+    text-decoration: none;
+    color: #800080;
+}
+
+
+@media(max-width: 1400px){
+    
+    .go-back-mobile{
+        display: none;
+    }
+
+    
+}
+@media(max-width: 768px){
+    
+    .friends-code h6{
+        font-size: 10px;
+    }
+    .friends-code h6 span{
+        font-size: 10px;
+    }
+    .friends-balance{
+        width: 120px;
+        height: 65px;
+        margin-top: 20px;
+    }
+    .friends-balance h6{
+        font-size: 10px;
+        
+    }
+    .friends-balance h6 span{
+        font-size: 10px;
+        
+    }
+    .friends-enrolled{
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .friends-col{
+        width: 500px;
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .go-back-mobile{
+        display: block;
+    }
+
+    
+}
+
+@media(max-width: 666px){
+    .friends-code h6{
+        font-size: 10px;
+    }
+    .friends-code h6 span{
+        font-size: 10px;
+    }
+    .friends-balance{
+        width: 120px;
+        height: 65px;
+        margin-top: 20px;
+    }
+    .friends-balance h6{
+        font-size: 10px;
+        
+    }
+    .friends-balance h6 span{
+        font-size: 10px;
+        
+    }
+    .friends-enrolled{
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .friends-col{
+        margin-bottom: 20px;
+    }
+    .go-back-mobile{
+        display: block;
+    }
+}

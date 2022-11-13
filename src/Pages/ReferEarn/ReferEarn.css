@@ -1,0 +1,124 @@
+.earning-referrals-balance-code-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.earning-referrals-balance-area{
+    width: 446px;
+    height: 148px;
+    background-color: #ffff;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 15px;
+}
+.earning-referrals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.Withdraw-Balance-btn{
+    background-color: #800080;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 50%;
+    color: #fff;
+}
+
+.earning-referrals-balance span{
+    font-size: 32px;
+}
+
+.referral-code{
+    margin-top: 60px;
+}
+.referral-code h5{
+    color: #800080;
+    color: #800080;
+    font-size: 24px;
+}
+.referral-code h5 span{
+    letter-spacing: 1.5em;
+    border: 1px solid #800080;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.work-area{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 30px;
+}
+.work-col{
+    display: flex;
+    
+}
+.work-col-text{
+    line-height: 20px;
+}
+.work-col-text span{
+    color: #4D4D4D;
+    font-size: 16px;
+}
+
+.word-icon{
+    background-color: rgba(217, 217, 217, 0.25);
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.word-icon img{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-top: 5px;
+
+}
+
+.footer-menu-area{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.footer-menu{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+@media(max-width: 768px){
+    .earning-referrals-balance-code-area{
+        display: block;
+    }
+    .work-area{
+        display: block;
+        grid-template-columns: 400px;
+    }
+    
+}
+
+@media(max-width: 666px){
+    .earning-referrals-balance-code-area{
+        display: block;
+    }
+    .work-area{
+        display: block;
+        grid-template-columns: 400px;
+    }
+    .earning-referrals{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .earning-referrals-balance-area{
+        width: 300px;
+        height: 200px;
+    }
+    .Withdraw-Balance-btn{
+        width: 150px;
+        height: 40px;
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,19 @@
+.profile-area{
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.profile-menu{
+    text-decoration: none;
+    font-size: 14px
+}
+.arrow-icon{
+    width: 10px;
+}
+
+@media(max-width: 666px){
+    .profile-area{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

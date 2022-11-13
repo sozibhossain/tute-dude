@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import FriendsReferred from './Pages/FriendsReferred/FriendsReferred';
+import Profile from './Pages/Profile/Profile';
+import ReferEarn from './Pages/ReferEarn/ReferEarn';
+import Header from './Pages/Shared/Header/Header';
+import UIUX from './Pages/UIUX/UIUX';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header/>
+        <Profile>
+          <Routes>
+            <Route path="/uiux" element={<UIUX/>} />
+            <Route path="/ReferEarn" element={<ReferEarn/>} />
+            <Route path="/FriendsReferred" element={<FriendsReferred/>} />
+            <Route path="/" element={<FriendsReferred/>} />
+          </Routes>
+        </Profile>
+      </BrowserRouter>
     </div>
   );
 }
